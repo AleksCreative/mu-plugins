@@ -2,6 +2,7 @@
     register_post_type('event', array(
         'public' => true,
         'menu_icon' => 'dashicons-calendar',
+        'show_in_rest' => true,
         'labels' => array(
             'name' => 'Events',
             'add_new_item' => 'Add new Event',
